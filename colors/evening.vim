@@ -3,17 +3,17 @@
 "License - © 2015 WTFPL, Do What the Fuck You Want to Public License. - http://www.wtfpl.net/
 
 " Default GUI Colours
-let s:foreground      = "bbbbbb"
-let s:background      = "252525"
+let s:foreground      = "d8d8d8"
+let s:background      = "1d1d1d"
 let s:selection       = "404040"
-let s:line            = "252525"
+let s:line            = "1d1d1d"
 let s:activeline      = "353535"
-let s:non_text        = "252525"
+let s:non_text        = "1d1d1d"
 let s:comment         = "757575"
-let s:window          = "252525"
+let s:window          = "1d1d1d"
 let s:tab_bg          = "353535"
-let s:tab_fg          = "bbbbbb"
-let s:linenr_bg       = "252525"
+let s:tab_fg          = "d8d8d8"
+let s:linenr_bg       = "1d1d1d"
 let s:linenr_fg       = "656565"
 let s:statusline_bg   = "303030"
 let s:statusline_fg   = "65aaca"
@@ -34,9 +34,9 @@ let s:lightblue       = "65aaca"
 
 " Console 256 Colours
 if !has("gui_running")
-	let s:background  = "252525"
-	let s:window      = "252525"
-	let s:line        = "252525"
+	let s:background  = "1d1d1d"
+	let s:window      = "1d1d1d"
+	let s:line        = "1d1d1d"
 	let s:selection   = "404040"
 end
 
@@ -350,7 +350,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("vimSynType", s:olive, "", "bold")
 	call <SID>X("vimNotation", s:aqua, "", "")
 	call <SID>X("vimOper", s:foreground, "", "")
-	
+
 	" Makefile Highlighting
 	call <SID>X("makeIdent", s:blue, "", "")
 	call <SID>X("makeSpecTarget", s:olive, "", "")
