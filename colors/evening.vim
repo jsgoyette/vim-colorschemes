@@ -4,16 +4,16 @@
 
 " Default GUI Colours
 let s:foreground      = "d8d8d8"
-let s:background      = "1d1d1d"
+let s:background      = "121212"
 let s:selection       = "404040"
-let s:line            = "1d1d1d"
+let s:line            = "121212"
 let s:activeline      = "353535"
-let s:non_text        = "1d1d1d"
+let s:non_text        = "121212"
 let s:comment         = "757575"
-let s:window          = "1d1d1d"
+let s:window          = "121212"
 let s:tab_bg          = "353535"
 let s:tab_fg          = "d8d8d8"
-let s:linenr_bg       = "1d1d1d"
+let s:linenr_bg       = "121212"
 let s:linenr_fg       = "656565"
 let s:statusline_bg   = "303030"
 let s:statusline_fg   = "65aaca"
@@ -34,9 +34,9 @@ let s:lightblue       = "65aaca"
 
 " Console 256 Colours
 if !has("gui_running")
-	let s:background  = "1d1d1d"
-	let s:window      = "1d1d1d"
-	let s:line        = "1d1d1d"
+	let s:background  = "121212"
+	let s:window      = "121212"
+	let s:line        = "121212"
 	let s:selection   = "404040"
 end
 
